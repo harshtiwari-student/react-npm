@@ -6,7 +6,7 @@ const LoginStatus=()=>{
             {isLogin && <p>you are logged in </p>}
             {!isLogin && <p>you are logged out </p>}
             <button onClick={()=>setLogin(!isLogin)}>
-                {islogin?"Logout":"Login"}
+                {isLogin?"Logout":"Login"}
             </button>
         </div>
     )
